@@ -1,10 +1,35 @@
 <resources>
 
-  <!-- Base application theme. -->
-  <style name="AppTheme" parent="Theme.MaterialComponents">
-    <!-- Customize your theme here. -->
+  <style name="AppTheme" parent="Theme.MaterialComponents.Light">
     <item name="colorPrimary">@color/colorPrimary</item>
     <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
     <item name="colorAccent">@color/colorAccent</item>
   </style>
+
+  <style name="TextAppearance" />
+
+  <style name="TextAppearance.Test1">
+    <item name="android:textSize">16sp</item>
+
+    <item name="lineHeight">24sp</item>
+  </style>
+
+  <style name="TextAppearance.Test2">
+    <item name="android:textSize">16sp</item>
+
+    <item name="android:lineSpacingExtra">8sp</item>
+  </style>
+
+  <style name="TextAppearance.Test3">
+    <item name="android:textSize">16sp</item>
+
+    <item name="android:lineSpacingMultiplier">1.3</item>
+  </style>
+
+  <style name="TextAppearance.Test4">
+    <item name="android:textSize">16sp</item>
+  </style>
 </resources>
+
+  <!--    <item name="android:fallbackLineSpacing">true</item>-->
+  <!--    <item name="android:includeFontPadding">true</item>-->
