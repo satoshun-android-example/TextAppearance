@@ -9,25 +9,25 @@
   <style name="TextAppearance" />
 
   <style name="TextAppearance.Test1">
-    <item name="android:textSize">16sp</item>
+    <item name="android:textSize">50px</item>
 
-    <item name="lineHeight">32sp</item>
+    <item name="lineHeight">100px</item>
   </style>
 
   <style name="TextAppearance.Test2">
-    <item name="android:textSize">16sp</item>
+    <item name="android:textSize">50px</item>
 
-    <item name="android:lineSpacingExtra">16sp</item>
+    <item name="android:lineSpacingExtra">25px</item>
   </style>
 
   <style name="TextAppearance.Test3">
-    <item name="android:textSize">16sp</item>
+    <item name="android:textSize">50px</item>
 
     <item name="android:lineSpacingMultiplier">2.0</item>
   </style>
 
   <style name="TextAppearance.Test4">
-    <item name="android:textSize">16sp</item>
+    <item name="android:textSize">50px</item>
   </style>
 </resources>
 
