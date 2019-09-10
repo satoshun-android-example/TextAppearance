@@ -11,7 +11,7 @@
   <style name="TextAppearance.Test1" parent="TextAppearance.MaterialComponents.Headline2">
     <!--    <item name="android:textSize">50px</item>-->
 
-    <!--    <item name="lineHeight">100px</item>-->
+    <item name="lineHeight">100px</item>
   </style>
 
   <style name="TextAppearance.Test2">
