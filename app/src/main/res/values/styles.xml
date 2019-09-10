@@ -8,10 +8,10 @@
 
   <style name="TextAppearance" />
 
-  <style name="TextAppearance.Test1">
-    <item name="android:textSize">50px</item>
+  <style name="TextAppearance.Test1" parent="TextAppearance.MaterialComponents.Headline2">
+    <!--    <item name="android:textSize">50px</item>-->
 
-    <item name="lineHeight">100px</item>
+    <!--    <item name="lineHeight">100px</item>-->
   </style>
 
   <style name="TextAppearance.Test2">
@@ -23,11 +23,15 @@
   <style name="TextAppearance.Test3">
     <item name="android:textSize">50px</item>
 
-    <item name="android:lineSpacingMultiplier">2.0</item>
+    <!--    <item name="android:lineSpacingExtra">10px</item>-->
+    <item name="android:lineSpacingMultiplier">1.5</item>
   </style>
 
   <style name="TextAppearance.Test4">
     <item name="android:textSize">50px</item>
+
+    <item name="android:lineSpacingExtra">0px</item>
+    <item name="android:elegantTextHeight">false</item>
   </style>
 </resources>
 
